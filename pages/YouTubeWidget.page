@@ -1,0 +1,3 @@
+<apex:page standardController="YouTube_Video__c" showHeader="false">
+  <apex:iframe height="420" width="400" src="https://www.youtube.com/embed/{!YouTube_Video__c.Video_Id__c}" />
+</apex:page>
